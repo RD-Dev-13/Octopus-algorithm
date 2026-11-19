@@ -1,0 +1,20 @@
+[
+ {"id":"a1","type":"rectangle","x":0,"y":0,"width":190,"height":76,"text":"CEC 2017\nF1–F29, D = 10","fillStyle":"solid","backgroundColor":"#e7f5ff","strokeColor":"#1971c2","roundness":{"type":3},"fontSize":16},
+ {"id":"a2","type":"rectangle","x":220,"y":0,"width":190,"height":76,"text":"Cloud simulator\nn tasks, 8 VMs","fillStyle":"solid","backgroundColor":"#e7f5ff","strokeColor":"#1971c2","roundness":{"type":3},"fontSize":16},
+ {"id":"a3","type":"rectangle","x":0,"y":130,"width":410,"height":70,"text":"Budgeted Problem wrapper\nequal evaluation budget · best-so-far log","fillStyle":"solid","backgroundColor":"#fff3bf","strokeColor":"#e8590c","roundness":{"type":3},"fontSize":16},
+ {"id":"a4","type":"rectangle","x":0,"y":254,"width":190,"height":76,"text":"OIOA\n(proposed)","fillStyle":"solid","backgroundColor":"#ffe3e3","strokeColor":"#e03131","roundness":{"type":3},"fontSize":16},
+ {"id":"a5","type":"rectangle","x":220,"y":254,"width":190,"height":76,"text":"Baselines\nPSO GWO ABC\nWOA HHO DE","fillStyle":"solid","backgroundColor":"#d3f9d8","strokeColor":"#2f9e44","roundness":{"type":3},"fontSize":16},
+ {"id":"a6","type":"rectangle","x":0,"y":384,"width":410,"height":70,"text":"Experiment runner\n30 runs · common initial population","fillStyle":"solid","backgroundColor":"#e7f5ff","strokeColor":"#1971c2","roundness":{"type":3},"fontSize":16},
+ {"id":"a7","type":"rectangle","x":0,"y":508,"width":410,"height":70,"text":"Result files (JSON, one per run)\nresumable, seed-deterministic","fillStyle":"solid","backgroundColor":"#f3f0ff","strokeColor":"#6741d9","roundness":{"type":3},"fontSize":16},
+ {"id":"a8","type":"rectangle","x":0,"y":632,"width":410,"height":70,"text":"Statistics\nranks · Friedman · Wilcoxon-Holm · rank-sum","fillStyle":"solid","backgroundColor":"#e7f5ff","strokeColor":"#1971c2","roundness":{"type":3},"fontSize":16},
+ {"id":"a9","type":"rectangle","x":0,"y":756,"width":410,"height":60,"text":"Tables and figures","fillStyle":"solid","backgroundColor":"#e7f5ff","strokeColor":"#1971c2","roundness":{"type":3},"fontSize":16},
+ {"type":"arrow","x":0,"y":0,"startElementId":"a1","endElementId":"a3"},
+ {"type":"arrow","x":0,"y":0,"startElementId":"a2","endElementId":"a3"},
+ {"type":"arrow","x":0,"y":0,"startElementId":"a3","endElementId":"a4"},
+ {"type":"arrow","x":0,"y":0,"startElementId":"a3","endElementId":"a5"},
+ {"type":"arrow","x":0,"y":0,"startElementId":"a4","endElementId":"a6"},
+ {"type":"arrow","x":0,"y":0,"startElementId":"a5","endElementId":"a6"},
+ {"type":"arrow","x":0,"y":0,"startElementId":"a6","endElementId":"a7"},
+ {"type":"arrow","x":0,"y":0,"startElementId":"a7","endElementId":"a8"},
+ {"type":"arrow","x":0,"y":0,"startElementId":"a8","endElementId":"a9"}
+]

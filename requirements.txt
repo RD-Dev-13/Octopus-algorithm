@@ -1,0 +1,7 @@
+numpy>=1.24,<2.0
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+opfunu==1.0.4
+# opfunu imports pkg_resources, which setuptools 81 and newer no longer ship
+setuptools>=65,<81

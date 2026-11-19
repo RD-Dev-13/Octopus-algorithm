@@ -1,0 +1,43 @@
+{
+ "max_fe": 100000,
+ "dim": 10,
+ "repeats": 3,
+ "raw_evaluation_seconds": 0.11676769999940007,
+ "algorithms": {
+  "OIOA": {
+   "mean_seconds": 0.4680523333342232,
+   "std_seconds": 0.013975810309742098,
+   "overhead_us_per_eval": 3.5128463333482314
+  },
+  "PSO": {
+   "mean_seconds": 0.16031206666715056,
+   "std_seconds": 0.0011456609197797506,
+   "overhead_us_per_eval": 0.43544366667750495
+  },
+  "GWO": {
+   "mean_seconds": 0.21110436666701085,
+   "std_seconds": 0.0013954719787843367,
+   "overhead_us_per_eval": 0.9433666666761079
+  },
+  "ABC": {
+   "mean_seconds": 1.4899111000001237,
+   "std_seconds": 0.009202031216957994,
+   "overhead_us_per_eval": 13.731434000007237
+  },
+  "WOA": {
+   "mean_seconds": 0.20953403333320844,
+   "std_seconds": 0.0013994597396694473,
+   "overhead_us_per_eval": 0.9276633333380838
+  },
+  "HHO": {
+   "mean_seconds": 0.3194325999999516,
+   "std_seconds": 0.01649473765521749,
+   "overhead_us_per_eval": 2.0266490000055155
+  },
+  "DE": {
+   "mean_seconds": 0.9948361333335924,
+   "std_seconds": 0.007361513162009537,
+   "overhead_us_per_eval": 8.780684333341924
+  }
+ }
+}

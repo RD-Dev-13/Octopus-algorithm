@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Raw experiment output (regenerate with the commands in README.md).
+# results/summary/ is small and IS tracked.
+results/cec2017_D10/
+results/ablation/
+results/cloud/
+results/logs/
+results/*_smoke/
+results/*_partial/
+results/xcheck_*/
+results/*.zip
+
+# Local scratch and install logs
+_install.log
+*.log
+.env
+.env.*
+!.env.example
+
+# Office temp files and test builds
+~$*
+paper/_test*
+paper/*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local extras
+results/fig_partial/
+results/summary_partial/
+paper/_pg*.png
+results/ablation_remote.zip
+figures/src/*_check.png

@@ -1,0 +1,126 @@
+{
+ "functions": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29
+ ],
+ "n_runs": 30,
+ "algorithms": [
+  "OIOA",
+  "PSO",
+  "GWO",
+  "ABC",
+  "WOA",
+  "HHO",
+  "DE"
+ ],
+ "mean_rank": {
+  "OIOA": 3.448,
+  "PSO": 4.259,
+  "GWO": 5.069,
+  "ABC": 1.655,
+  "WOA": 5.0,
+  "HHO": 6.966,
+  "DE": 1.603
+ },
+ "friedman": {
+  "chi2": 140.56454601605924,
+  "p": 7.617548078387791e-28
+ },
+ "wilcoxon_vs_control": {
+  "PSO": {
+   "p": 0.05337592214345932,
+   "p_holm": 0.05337592214345932,
+   "control_better": 19,
+   "control_worse": 10
+  },
+  "GWO": {
+   "p": 1.1436641216278076e-06,
+   "p_holm": 5.718320608139038e-06,
+   "control_better": 26,
+   "control_worse": 3
+  },
+  "ABC": {
+   "p": 3.789619441580871e-06,
+   "p_holm": 1.5158477766323483e-05,
+   "control_better": 0,
+   "control_worse": 28
+  },
+  "WOA": {
+   "p": 4.697591066360474e-06,
+   "p_holm": 1.5158477766323483e-05,
+   "control_better": 26,
+   "control_worse": 3
+  },
+  "HHO": {
+   "p": 3.725290298461914e-09,
+   "p_holm": 2.2351741790771484e-08,
+   "control_better": 29,
+   "control_worse": 0
+  },
+  "DE": {
+   "p": 1.8603228206427745e-05,
+   "p_holm": 3.720645641285549e-05,
+   "control_better": 2,
+   "control_worse": 26
+  }
+ },
+ "ranksum_control_vs": {
+  "PSO": {
+   "win": 6,
+   "tie": 17,
+   "loss": 6
+  },
+  "GWO": {
+   "win": 25,
+   "tie": 3,
+   "loss": 1
+  },
+  "ABC": {
+   "win": 2,
+   "tie": 5,
+   "loss": 22
+  },
+  "WOA": {
+   "win": 24,
+   "tie": 3,
+   "loss": 2
+  },
+  "HHO": {
+   "win": 29,
+   "tie": 0,
+   "loss": 0
+  },
+  "DE": {
+   "win": 0,
+   "tie": 5,
+   "loss": 24
+  }
+ }
+}

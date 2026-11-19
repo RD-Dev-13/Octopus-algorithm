@@ -1,0 +1,187 @@
+[
+ {
+  "check": "behavior scores equal the paper's four score equations (500 random states)",
+  "pass": true,
+  "detail": "0.00e+00"
+ },
+ {
+  "check": "softmax probabilities equal exp(z/tau)/sum (500 random states)",
+  "pass": true,
+  "detail": "2.22e-16"
+ },
+ {
+  "check": "diversity = mean distance to centroid / diagonal",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "progress = (f_best(t-k) - f_best(t)) / (f_worst(t-k) - f_best(t-k))",
+  "pass": true,
+  "detail": "0.5 vs 0.5"
+ },
+ {
+  "check": "escape probability is exactly zero below kappa_min and positive from kappa_min",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "Table I 'Population size N' = code default",
+  "pass": true,
+  "detail": "paper '50' vs code '50'"
+ },
+ {
+  "check": "Table I 'Progress window W / reference ρ_ref' = code default",
+  "pass": true,
+  "detail": "paper '5 generations / 0.02' vs code '5 generations / 0.02'"
+ },
+ {
+  "check": "Table I 'Escape thresholds κ_min / κ_max' = code default",
+  "pass": true,
+  "detail": "paper '5 / 12' vs code '5 / 12'"
+ },
+ {
+  "check": "Table I 'Elite fraction (n_e = 10)' = code default",
+  "pass": true,
+  "detail": "paper '0.2' vs code '0.2'"
+ },
+ {
+  "check": "Table I 'Mimic copy probability p_m' = code default",
+  "pass": true,
+  "detail": "paper '0.5' vs code '0.5'"
+ },
+ {
+  "check": "Table I 'Camouflage σ_0 / σ_min' = code default",
+  "pass": true,
+  "detail": "paper '0.5 / 0.005' vs code '0.5 / 0.005'"
+ },
+ {
+  "check": "Table I 'Opposition probability p_opp / Levy β' = code default",
+  "pass": true,
+  "detail": "paper '0.3 / 1.5' vs code '0.3 / 1.5'"
+ },
+ {
+  "check": "Table I 'Softmax temperature τ' = code default",
+  "pass": true,
+  "detail": "paper '1' vs code '1'"
+ },
+ {
+  "check": "elite count n_e = 10 for N = 50",
+  "pass": true,
+  "detail": "10"
+ },
+ {
+  "check": "camouflage floor spans 1e-2 to 1e-10 of the range",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "PSO: w 0.9 to 0.4, c1 = c2 = 2",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "DE: F = 0.5, CR = 0.9",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "WOA: b = 1",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "all baselines use population size 50",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "PSO maximum velocity is 20% of the range (source check)",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "ABC: 25 food sources and limit 25 D (source check)",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "CEC study default: 30 runs, D = 10",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "CEC budget default is 10,000 x D = 100,000 at D = 10",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "seven algorithms in the main study, OIOA first",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "same initial population for every algorithm (seed [f, r, 0])",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "CEC floor: errors below 1e-8 treated as zero",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "8 VMs with the stated speeds",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "busy power 60 + 0.06 s, idle 60% of busy",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "price proportional to speed",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "stable: one phase of 100 tasks",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "burst: 60 tasks then 100 tasks",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "degradation: two fastest VMs at half speed, same tasks",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "combined: burst plus degradation",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "objective weights (0.5, 0.3, 0.2)",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "cloud study default: 30,000 evaluations, 30 runs",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "check": "task lengths clipped to 500..30000 MI, median near 6000",
+  "pass": true,
+  "detail": "median 6004"
+ },
+ {
+  "check": "energy = sum_j [P_idle (M - B_j) + P_max B_j]; cost = sum_j price_j B_j (hand-computed toy case)",
+  "pass": true,
+  "detail": ""
+ }
+]
